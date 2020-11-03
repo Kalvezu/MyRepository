@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <menu>
+      <ul class="menu-items">
+        <li><a href="index.html">Search</a></li>
+      </ul>
+    </menu>
+    <main class="as-content">
+      <h1 class="as-title">Advanced Search</h1>
+      <form action="https://google.com/search" name="f" method="GET" class="form-as">
+        <table class="tab-form-as">
+          <tr>
+            <td class="form-as-input-title"><span>Find pages with...</span></th>
+            <td></th>
+            <td class="form-as-input-title"><span>To do this in the search box.</span></th>
+          </tr>
+          <tr>
+            <td class="form-as-input-label"><span>all these words:</span></td>
+            <td class="form-as-input"><input class="as-input" type="text" name="as_q"></td>
+            <td class="form-as-input-desc"><span>Type the important words: tri-colour rat terrier</span></td>
+          </tr>
+          <tr>
+            <td class="form-as-input-label"><span>this exact word or phrase:</span></td>
+            <td class="form-as-input"><input class="as-input" type="text" name="as_epq"></td>
+            <td class="form-as-input-desc">Put exact words in quotes: "rat terrier"</span></td>
+          </tr>
+          <tr>
+            <td class="form-as-input-label"><span>any of these words:</span></td>
+            <td class="form-as-input"><input class="as-input" type="text" name="as_oq"></td>
+            <td class="form-as-input-desc">Type OR between all the words you want: miniature OR standard</span></td>
+          </tr>
+          <tr>
+            <td class="form-as-input-label"><span>none of these words:</span></td>
+            <td class="form-as-input"><input class="as-input" type="text" name="as_eq"></td>
+            <td class="form-as-input-desc">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span></td>
+          </tr>
+          <!-- <tr>
+            <td class="form-as-input-label"><span>numbers ranging from:</span></td>
+            <td>
+              <input class="broken-box-input as-input" type="text" name="as_nlo">
+              <span class="form-as-input-label">To</span>
+              <input class="broken-box-input as-input" type="text" name="as_nlo">
+            </td>
+            <td class="form-as-input-desc">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</span></td>
+          </tr> -->
+        </table>
+        <input name="tbs" type="submit" class="submit-button-as" value="Advanced Search">
+      </form>
+    </main>
+  </body>
+</html>

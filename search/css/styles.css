@@ -1,0 +1,188 @@
+/* Css Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* General: Menu styles */
+menu {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.menu-items{
+  display: inherit;
+	list-style: none;
+}
+
+.menu-items li{
+	padding: 2em 2.5em 0 1em;
+	font: 13px arial, sans-serif
+}
+
+.menu-items li a {
+	text-decoration: none !important;
+	color: rgb(0,0,0);
+}
+
+.menu-items li a:hover {
+	color: rgba(0,0,0,0.77);
+	text-decoration: underline;
+}
+
+/* General: Body styles */
+html, body, main {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+input {
+	outline: none;
+}
+
+.title {
+	font-family: Arial, sans-serif;
+	font-size: 5em;
+	margin: -1em 0 .2em 0;
+}
+
+.centralized-content, .centralized-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ .centralized-form {
+	width: 100%;
+}
+
+.search-container {
+	display: flex;
+	justify-content: center;
+	height: 42px;
+	border: 1px solid #dcdcdc;
+	border-radius: 50px;
+	width: 35%;
+}
+
+.search-container:hover {
+	box-shadow: 1px 1px 1px rgb(200, 200, 200);
+}
+
+.search-box {
+	border: none;
+	width: 90%;
+	outline: none;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.submit-button {
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #5F6368;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background-image: -webkit-linear-gradient(top,#f9f5f5,#f1f1f1);
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	border: 1.2px solid rgb(200, 200,200);
+}
+
+/* Advanced Search: body styles */
+.form-as-input {width: 50%;}
+.form-as-input input {width: 95%;}
+.as-content {margin: 1em 0 0 2.5em}
+.broken-box-input {width: 44%}
+
+.form-as-input-title {
+	width: 16%;
+	min-width: 167px;
+	height: 43px;
+	font-size: 16px;
+	color: #333;
+	font-family: arial, sans-serif;
+}
+
+.form-as-input-label {
+	width: 14%;
+	min-width: 167px;
+	height: 43px;
+	font-size: 12px;
+	color: #222;
+	font-family: arial, sans-serif;
+}
+
+.form-as-input-desc {
+	width: 32%;
+	font-size: 11px;
+	color: #444;
+	font-family: arial, sans-serif;
+}
+
+.as-title {
+	margin-bottom: 5%;
+	font-family: arial, sans-serif;
+	color: red;
+}
+
+.as-input {
+	border-radius: 1px;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+	font-size: 13px;
+	height: 25px;
+	padding: 1px 8px;
+}
+
+.submit-button-as {
+	background-color: #4787ed;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	margin: 11px 50% 4px 50%;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #3079ed;
+  color: #fff;
+}
+
+.form-as {
+	width: 80%;
+}
